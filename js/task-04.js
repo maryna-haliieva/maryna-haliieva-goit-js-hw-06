@@ -19,6 +19,7 @@ function onClickDecrementButton() {
 }
 
 incrementButton.addEventListener("click", onClickIncrementButton);
+
 function onClickIncrementButton() {
   counterValue += 1;
   initialValue();
