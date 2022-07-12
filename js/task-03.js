@@ -28,7 +28,6 @@ function galleryMarkup() {
 
   cardList.style.display = "flex";
   cardList.style.justifyContent = "center";
-  cardList.style.flexGrow = "1";
   cardList.style.listStyle = "none";
   cardList.style.padding = "0";
 
@@ -43,3 +42,14 @@ function galleryMarkup() {
 
 galleryMarkup();
 // =======================================
+
+// РОЗВ'ЯЗОК З ПРАКТИЧНОГО ЗАНЯТТЯ
+
+// const cardList = (acc, { url, alt }) => {
+//   return acc + `<li> <img class ="img" src ="${url}" alt = "${alt}"  /></li>`;
+// };
+
+// const imgMarkup = images.reduce(cardList, "");
+
+// const itemMarkup = document.querySelector(".gallery");
+// itemMarkup.insertAdjacentHTML("afterbegin", imgMarkup);
